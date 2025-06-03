@@ -1,0 +1,17 @@
+### server testing
+GET http://localhost:3000
+
+### get all songs
+GET http://localhost:3000/songs
+
+### add a new song
+POST http://localhost:3000/songs/add
+
+### get a specific song
+GET http://localhost:3000/songs/1234
+
+### update a song
+PUT http://localhost:3000/songs/update/1234
+
+### delete a song
+DELETE  http://localhost:3000/songs/delete/1234
